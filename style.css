@@ -45,7 +45,6 @@
   }
 
   section{
-    float: left;
     padding: 20px;
     margin-bottom: 20px;
     color: #777;
@@ -54,10 +53,14 @@
     width: 545px;
     height: 286px;
     margin-left: 155px;
-    margin-right: 679px;
   }
 
-  aside {
+    #left {
+        float: left;
+    }
+
+    #right
+    {
       float: right;
       width: 30px;
       padding: 20px;
